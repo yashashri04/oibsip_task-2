@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <section>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg" id="mynav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">My Portfo<span>lio</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-center"><i class="bi-list mx-2" style="font-size: 1.8rem; color: white;" role="img"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div id="home" class="w-100  d-flex">
+      <div class="content text-white">
+        <div class="B-text1">Hello</div>
+        <div class="B-text2">My name is Yashashri Banait</div>
+        <div class="B-text3">
+        <span>And I am a </span><span id="textAnimation"></span>
+      </div>
+        <button class="myBtn" ><a href="#about">Know More</a> </button>
+      </div>
+    </div>
+
+    
+  </section>
+  
+  <section>
+    <div data-aos="fade-up"   id="about" class="container-fluid">
+      <div class="row mx-4">
+        <div class="col-sm-4 my-2">
+             <img src="images/profileImg.jpg" alt="" id="profile-img">
+        </div>
+        <div class="col m-auto">
+          <div class="title1">About Me</div>
+          <div class="text">My name is Yashashri Banait and I am a pre-final year student. I am doing BE from Sinhgad College Of Engeneering in Electronics and Telecommunication domain. I am a self taught programer who loves coding and problem solving. I also have interest in Web development and currently exploring this field. I am ardent by nature who loves to learn skills and always ready to face challenges. </div>
+          <button class="myBtn my-2" style="width: 7rem;"><a href="Yashashri's Resume.pdf" download>Download CV</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div  data-aos="zoom-in"  id="skills" class="container-fluid">
+      <div class="row mx-4">
+        <div class="col-sm-6">
+          <div class="title1">My Skills</div>
+          <div class="text">
+             I know multiple languages but I usually code in Java and C++. I have knowledge of data structures and algorithm for solving problems efficiently. My interest also lies in Web development. I am skilled in HTML,CSS and JavaScript and I also knows basics of frontend technologies like React and Bootstrap.
+          </div>
+         
+        </div>
+        <div class="col my-3">
+                <span>HTML</span><span class="percent">90%</span>
+                <div class="skills_bar" ><div class="inner_skill_bar" style="width: 90%;"></div></div>
+                <span>CSS</span><span class="percent">70%</span>
+                <div class="skills_bar"><div class="inner_skill_bar" style="width: 70%;"></div></div>
+                <span>JavaScript</span><span class="percent">65%</span>
+                <div class="skills_bar"><div class="inner_skill_bar" style="width: 70%;"></div></div>
+                <span>React</span><span class="percent">50%</span>
+                <div class="skills_bar"><div class="inner_skill_bar" style="width: 60%;"></div></div>
+                <span>Java</span><span class="percent">70%</span>
+                <div class="skills_bar"><div class="inner_skill_bar" style="width: 80%;"></div></div>
+
+             </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div data-aos="fade-down" id="projects" class="container">
+       <div class="title1 text-center my-4">My projects</div>
+       <div class="row">
+         <div class="col my-3">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <img src="images/project/weatherApp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Weather App</h5>
+              <p class="card-text">Simple weather app which allows user to search for and view the forecast in cities worldwide.</p>
+              <span>Stack Used :</span><br>
+              <span class="badge bg-secondary p-2">HTML</span>
+              <span class="badge bg-secondary p-2">CSS</span>
+              <span class="badge bg-secondary p-2">JavaScript</span>
+              <div class="my-2"><a href="https://yashashri04.github.io/WeatherApp/">Project Link</a></div>
+            </div>
+          </div>
+         </div>
+         <div class="col my-3">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <img src="images/project/snakeGame.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>Snake Game</h5>
+              <p class="card-text">This is a Sanke game created using pure HTML, CSS and JavaScript with some basic features.</p>
+              <span>Stack Used :</span><br>
+              <span class="badge bg-secondary p-2">HTML</span>
+              <span class="badge bg-secondary p-2">CSS</span>
+              <span class="badge bg-secondary p-2">JavaScript</span>
+              <div class="my-2"><a href="https://yashashri04.github.io/snakeGame/">Project Link</a></div>
+            </div>
+          </div>
+         </div>
+         <div class="col my-3">
+          <div class="card" style="width: 18rem; margin: auto;">
+            <img src="images/project/todo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>To-Do-List</h5>
+              <p class="card-text">This To-Do-list project have functionality to add new task,edit existing task and delete task.</p>
+              <span>Stack Used :</span><br>
+              <span class="badge bg-secondary p-2">HTML</span>
+              <span class="badge bg-secondary p-2">CSS</span>
+              <span class="badge bg-secondary p-2">JavaScript</span>
+              <span class="badge bg-secondary p-2">Bootstrap</span>
+              <div class="my-2"><a href="https://yashashri04.github.io/To-Do-List/">Project Link</a></div>
+            </div>
+          </div>
+         </div>
+       </div>
+    </div>
+  </section>
+
+  <section>
+    <div  data-aos="zoom-out"  id="contacts" class="container-fluid bg-dark text-white p-4">
+        <div class="title1 text-center my-4">Contact Me</div>
+        <div class="row">
+          <div class="col px-4">
+             <h5>Get in touch</h5>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, velit hic, enim eveniet omnis dolor veritatis ab officia nobis cupiditate quibusdam, magna</p>
+             <div>
+               <span><i class="bi bi-telephone icon"></i></span>
+               <span>9112427144</span>
+             </div>
+             <div>
+              <span><i class="bi bi-envelope icon"></i></span>
+              <span>yashashribanait99@gmail.com</span>
+             </div>
+             <div>
+               <span> <i class="bi bi-geo-alt icon"></i></span>
+               <span>Pune</span>
+              </div>
+              <div class="my-3">
+                <span><a href="https://www.facebook.com/yashashri.banait.79/"><i class="bi bi-facebook icon-social"></i></a></span>
+                <span><a href="https://www.instagram.com/yasha__471/"><i class="bi bi-instagram icon-social"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/yashashri-banait-6119a91a2/"><i class="bi bi-linkedin icon-social"></i></a></span>
+                <span><a href="https://github.com/yashashri04"><i class="bi bi-github icon-social"></i></a></span>
+              </div>
+          </div>
+         
+          <div class="col px-4">
+             <h5>Message me</h5>
+             <div class="container">
+               <form>
+                 <div class="form_fields my-2">
+                  <label for="name">Name</label>
+                  <input class="input_field" type="text" placeholder="Enter your name...">
+                </div>
+                <div class="form_fields">
+                  <label for="email">Email</label>
+                  <input class="input_field" type="email" placeholder="Enter your email...">
+                </div>
+                <div class="form_fields my-2">
+                  <label for="phone">Phone no.</label>
+                  <input class="input_field" type="number" placeholder="Enter your number...">
+                </div>
+                <div class="form_fields">
+                  <label for="msg">Message</label>
+                  <textarea class="input_field" name="msg" id="msg" cols="30" rows="3" placeholder="Write msg here..."></textarea>
+                </div>
+                <button class="myBtn p-0 my-3">Send</button>
+               </form>
+             </div>
+          </div>
+        </div>
+    </div>
+  </section>
+ 
+  <div class="footer bg-dark text-center text-white py-2">Made with <i class="bi bi-heart-fill " style="color:crimson;"></i> by Yashashri</div>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    var demo = document.getElementById('textAnimation');
+
+    var typewriter = new Typewriter(demo, {
+      strings: ['Student', 'Developer', 'Programmer'],
+      autoStart: true,
+      loop:true
+    });
+    
+    window.onscroll=(e)=>{
+       let navbar=document.getElementById('mynav');
+       navbar.classList.add('navbar-scroll-effect')
+       if(this.scrollY==0){
+        navbar.classList.remove('navbar-scroll-effect');
+       }
+    }
+    AOS.init();
+  </script>
+ 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
